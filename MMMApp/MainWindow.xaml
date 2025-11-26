@@ -1,0 +1,31 @@
+﻿<Window x:Class="MMMApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MMMApp"
+        mc:Ignorable="d"
+        Title="Администрирование" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0">
+            <Menu DockPanel.Dock="Left" Height="30" VerticalAlignment="Center">
+                <MenuItem Header="Выбор действия" VerticalAlignment="Center">
+                    <MenuItem Header="Резервное копирование" Click="Backup_Click"/>
+                    <MenuItem Header="Добавить пользователя" Click="AddUser_Click"/>
+                    <MenuItem Header="Добавить права" Click="AddPriv_Click"/>
+                </MenuItem>
+            </Menu>
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right">
+                <Button Name="BtnBack" Width="90" Height="30" Click="BtnBack_Click" Visibility="Hidden" HorizontalAlignment="Right">Назад</Button>
+            </StackPanel>
+        </DockPanel>
+
+        <Frame Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden" ContentRendered="MainFrame_ContentRendered"/>
+    </Grid>
+</Window>
