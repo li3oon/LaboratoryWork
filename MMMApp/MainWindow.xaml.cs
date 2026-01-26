@@ -53,5 +53,10 @@ namespace MMMApp
         {
             Manager.MainFrame.Navigate(new PageBackup());
         }
+
+        private void AddCatalog_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new PageCatalog());
+        }
     }
 }

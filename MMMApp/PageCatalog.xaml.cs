@@ -1,0 +1,63 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace MMMApp
+{
+    /// <summary>
+    /// Логика взаимодействия для PageCatalog.xaml
+    /// </summary>
+    public partial class PageCatalog : Page
+    {
+        public PageCatalog()
+        {
+            InitializeComponent();
+        }
+
+        private void Btn_Start(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Back(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Forward(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_End(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Add(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Delete(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Save(object sender, RoutedEventArgs e)
+        {
+
+        }
+    }
+}

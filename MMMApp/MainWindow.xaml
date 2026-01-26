@@ -18,6 +18,8 @@
                     <MenuItem Header="Резервное копирование" Click="Backup_Click"/>
                     <MenuItem Header="Добавить пользователя" Click="AddUser_Click"/>
                     <MenuItem Header="Добавить права" Click="AddPriv_Click"/>
+                    <MenuItem Header="Каталог моделей" Click="AddCatalog_Click"/>
+
                 </MenuItem>
             </Menu>
 
