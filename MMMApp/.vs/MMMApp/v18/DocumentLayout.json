@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\pagecatalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:pagecatalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\pageshop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:pageshop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\pageshop.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:pageshop.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\pagecatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:pagecatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PageCatalog.xaml.cs",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageCatalog.xaml.cs",
+              "RelativeDocumentMoniker": "PageCatalog.xaml.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageCatalog.xaml.cs",
+              "RelativeToolTip": "PageCatalog.xaml.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAcwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T16:26:21.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageShop.xaml.cs",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageShop.xaml.cs",
+              "RelativeDocumentMoniker": "PageShop.xaml.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageShop.xaml.cs",
+              "RelativeToolTip": "PageShop.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T16:25:24.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageShop.xaml",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageShop.xaml",
+              "RelativeDocumentMoniker": "PageShop.xaml",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageShop.xaml",
+              "RelativeToolTip": "PageShop.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-29T16:20:14.647Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 226,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PageCatalog.xaml",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageCatalog.xaml",
-              "RelativeDocumentMoniker": "PageCatalog.xaml",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageCatalog.xaml",
-              "RelativeToolTip": "PageCatalog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-26T03:30:17.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-26T03:22:06.062Z",
+              "WhenOpened": "2026-01-29T16:28:55.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-01-26T03:22:05.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-26T03:22:06.053Z",
+              "DocumentIndex": 1,
+              "Title": "Store.cs",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\Store.cs",
+              "RelativeDocumentMoniker": "Store.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\Store.cs",
+              "RelativeToolTip": "Store.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T16:23:21.157Z",
               "EditorCaption": ""
             }
           ]

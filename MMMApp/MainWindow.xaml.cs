@@ -58,5 +58,10 @@ namespace MMMApp
         {
             Manager.MainFrame.Navigate(new PageCatalog());
         }
+
+        private void AddShop_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new PageShop());
+        }
     }
 }

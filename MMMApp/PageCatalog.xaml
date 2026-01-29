@@ -12,6 +12,10 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="94"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -19,7 +23,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <ToolBar Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+        <ToolBar Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center">
             <Button ToolTip="В начало" Click="Btn_Start">
                 <iconPacks:PackIconMaterial Kind="SkipBackward"/>
             </Button>
@@ -28,9 +32,9 @@
                 <iconPacks:PackIconMaterial Kind="ChevronLeft"/>
             </Button>
 
-            <TextBlock Text="{Binding CurrentIndex}"/>
+            <TextBlock Text="{Binding CurrentIndex}" Width="25"/>
             <TextBlock Text=" из "/>
-            <TextBlock Text="{Binding TotalCount}"/>
+            <TextBlock Text="{Binding TotalCount}" Width="25"/>
 
             <Button ToolTip="Вперед" Click="Btn_Forward">
                 <iconPacks:PackIconMaterial Kind="ChevronRight"/>
@@ -54,7 +58,68 @@
                 <iconPacks:PackIconMaterial Kind="ContentSave"/>
             </Button>
         </ToolBar>
-        
-        
+
+        <!-- Код модели -->
+        <TextBlock
+        Grid.Row="1" Grid.Column="0"
+        Text="Код модели: "
+        FontSize="18"
+        VerticalAlignment="Center"
+        HorizontalAlignment="Right"/>
+
+        <TextBox
+        x:Name="TbCode"
+        Grid.Row="1" Grid.Column="1"
+        Width="400"
+        Height="40"
+        IsReadOnly="True" Text="{Binding model_id}"
+        VerticalAlignment="Center" HorizontalAlignment="Left"/>
+
+        <!-- Название -->
+        <TextBlock
+        Grid.Row="2" Grid.Column="0"
+        Text="Название: "
+        FontSize="18"
+        VerticalAlignment="Center"
+        HorizontalAlignment="Right"/>
+
+        <TextBox
+        x:Name="TbName"
+        Grid.Row="2" Grid.Column="1"
+        Width="400"
+        Height="40" Text="{Binding name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+        VerticalAlignment="Center" HorizontalAlignment="Left"/>
+
+        <!-- Цена -->
+        <TextBlock
+        Grid.Row="3" Grid.Column="0"
+        Text="Цена: "
+        FontSize="18"
+        VerticalAlignment="Center"
+        HorizontalAlignment="Right"/>
+
+        <TextBox
+        x:Name="TbPrice"
+        Grid.Row="3" Grid.Column="1"
+        Width="400"
+        Height="40" Text="{Binding price, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+        VerticalAlignment="Center" HorizontalAlignment="Left"/>
+
+        <!-- Описание -->
+        <TextBlock
+        Grid.Row="4" Grid.Column="0"
+        Text="Описание: "
+        FontSize="18"
+        VerticalAlignment="Center"
+        HorizontalAlignment="Right"/>
+
+        <TextBox
+        x:Name="TbDescription"
+        Grid.Row="4" Grid.Column="1"
+        Width="400"
+        Height="80"
+        AcceptsReturn="True"
+        TextWrapping="Wrap" Text="{Binding description, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+        VerticalAlignment="Center" HorizontalAlignment="Left"/>
     </Grid>
 </Page>

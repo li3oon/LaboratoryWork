@@ -356,3 +356,6 @@ D:\техникум\гитхаб\LaboratoryWork\MMMApp\bin\Debug\Microsoft.Xaml.
 D:\техникум\гитхаб\LaboratoryWork\MMMApp\bin\Debug\de\MahApps.Metro.resources.dll
 D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\PageCatalog.g.cs
 D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\PageCatalog.baml
+D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\MMMApp_Content.g.cs
+D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\PageShop.g.cs
+D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\PageShop.baml
