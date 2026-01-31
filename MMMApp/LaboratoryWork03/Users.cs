@@ -16,6 +16,21 @@ namespace MMMApp.LaboratoryWork03
         {
             InitializeComponent();
             this.Text = "Пользователи";
+        }
+        private void Users_Load(object sender, EventArgs e)
+        {
+            this.usersTableAdapter.Fill(this.mMM1DataSet.Users);
+        }
+
+        private void usersBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.usersBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.mMM1DataSet);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }

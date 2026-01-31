@@ -28,12 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.labelTitle = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // labelTitle
+            // 
+            this.labelTitle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelTitle.ForeColor = System.Drawing.Color.Blue;
+            this.labelTitle.Location = new System.Drawing.Point(0, 0);
+            this.labelTitle.Name = "labelTitle";
+            this.labelTitle.Size = new System.Drawing.Size(800, 29);
+            this.labelTitle.TabIndex = 0;
+            this.labelTitle.Text = "Пользователи";
+            this.labelTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelTitle.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Users
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Users";
+            this.Controls.Add(this.labelTitle);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Name = "Users";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Пользователи";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label labelTitle;
     }
 }
