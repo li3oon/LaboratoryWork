@@ -12,7 +12,7 @@ namespace MMMApp
     using System;
     using System.Collections.Generic;
     
-    public partial class Users
+    public partial class Users1
     {
         public int UserID { get; set; }
         public string Surname { get; set; }

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\laboratorywork03\\users.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\users.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\database.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\database.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:database.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\laboratorywork03\\users.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\users.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Users.cs",
               "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.cs",
               "RelativeDocumentMoniker": "LaboratoryWork03\\Users.cs",
               "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.cs",
               "RelativeToolTip": "LaboratoryWork03\\Users.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAD4vyEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAD4vw0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-30T05:56:09.615Z",
               "EditorCaption": ""
@@ -45,11 +45,11 @@
         },
         {
           "DockedWidth": 299,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DataBase.edmx [Diagram1]",
               "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\DataBase.edmx",
               "RelativeDocumentMoniker": "DataBase.edmx",
@@ -61,7 +61,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Users.Designer.cs",
               "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.Designer.cs",
               "RelativeDocumentMoniker": "LaboratoryWork03\\Users.Designer.cs",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Users.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.cs",
               "RelativeDocumentMoniker": "LaboratoryWork03\\Users.cs",

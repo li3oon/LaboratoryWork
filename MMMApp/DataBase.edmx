@@ -403,7 +403,7 @@
             <Parameter Name="new_diagramname" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_upgraddiagrams" />
-          <EntitySet Name="Users" EntityType="DB.Users" />
+          <EntitySet Name="Users" EntityType="DB.Users1" />
         </EntityContainer>
         <ComplexType Name="sp_helpdiagramdefinition_Result">
           <Property Type="Int32" Name="version" Nullable="true" />
@@ -416,7 +416,7 @@
           <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
           <Property Type="Int32" Name="OwnerID" Nullable="false" />
         </ComplexType>
-        <EntityType Name="Users">
+        <EntityType Name="Users1">
           <Key>
             <PropertyRef Name="UserID" />
           </Key>
@@ -530,7 +530,7 @@
           <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Хранилище DB.sp_renamediagram" />
           <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Хранилище DB.sp_upgraddiagrams" />
           <EntitySetMapping Name="Users">
-            <EntityTypeMapping TypeName="DB.Users">
+            <EntityTypeMapping TypeName="DB.Users1">
               <MappingFragment StoreEntitySet="Users">
                 <ScalarProperty Name="UserStatus" ColumnName="UserStatus" />
                 <ScalarProperty Name="Url" ColumnName="Url" />

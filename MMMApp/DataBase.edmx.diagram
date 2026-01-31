@@ -16,7 +16,7 @@
         <AssociationConnector Association="DB.FK_Order_Store" ManuallyRouted="false" />
         <AssociationConnector Association="DB.FK_OrderItem_Order" ManuallyRouted="false" />
         <AssociationConnector Association="DB.FK_OrderItem_Product" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="DB.Users" Width="1.5" PointX="1" PointY="7.25" />
+        <EntityTypeShape EntityType="DB.Users1" Width="1.5" PointX="1" PointY="7.25" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
