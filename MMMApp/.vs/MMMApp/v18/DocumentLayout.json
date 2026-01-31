@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\laboratorywork03\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\laboratorywork03\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\laboratorywork03\\productgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\productgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\laboratorywork03\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\laboratorywork03\\mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\pageshop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:pageshop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\pageshop.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:pageshop.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\pagecatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:pagecatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +38,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PageCatalog.xaml.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageCatalog.xaml.cs",
-              "RelativeDocumentMoniker": "PageCatalog.xaml.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageCatalog.xaml.cs",
-              "RelativeToolTip": "PageCatalog.xaml.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAcwIsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.cs",
+              "RelativeDocumentMoniker": "LaboratoryWork03\\Users.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.cs",
+              "RelativeToolTip": "LaboratoryWork03\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T16:26:21.447Z",
+              "WhenOpened": "2026-01-30T05:56:09.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PageShop.xaml.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageShop.xaml.cs",
-              "RelativeDocumentMoniker": "PageShop.xaml.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageShop.xaml.cs",
-              "RelativeToolTip": "PageShop.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCEAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Product.cs",
+              "RelativeDocumentMoniker": "LaboratoryWork03\\Product.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Product.cs",
+              "RelativeToolTip": "LaboratoryWork03\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T16:25:24.391Z",
+              "WhenOpened": "2026-01-30T05:55:39.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PageShop.xaml",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageShop.xaml",
-              "RelativeDocumentMoniker": "PageShop.xaml",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\PageShop.xaml",
-              "RelativeToolTip": "PageShop.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-29T16:20:14.647Z",
+              "Title": "Orders.cs",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Orders.cs",
+              "RelativeDocumentMoniker": "LaboratoryWork03\\Orders.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Orders.cs",
+              "RelativeToolTip": "LaboratoryWork03\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T05:51:20.546Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductGroups.cs",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\ProductGroups.cs",
+              "RelativeDocumentMoniker": "LaboratoryWork03\\ProductGroups.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\ProductGroups.cs",
+              "RelativeToolTip": "LaboratoryWork03\\ProductGroups.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T05:36:05.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenu.xaml.cs",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\MainMenu.xaml.cs",
+              "RelativeDocumentMoniker": "LaboratoryWork03\\MainMenu.xaml.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\MainMenu.xaml.cs",
+              "RelativeToolTip": "LaboratoryWork03\\MainMenu.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA1wCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T05:18:19.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Store.cs",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\Store.cs",
+              "RelativeDocumentMoniker": "Store.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\Store.cs",
+              "RelativeToolTip": "Store.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T16:23:21.157Z"
             }
           ]
         },
@@ -78,27 +125,14 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
+              "DocumentIndex": 5,
+              "Title": "MainMenu.xaml",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\MainMenu.xaml",
+              "RelativeDocumentMoniker": "LaboratoryWork03\\MainMenu.xaml",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\MainMenu.xaml",
+              "RelativeToolTip": "LaboratoryWork03\\MainMenu.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-29T16:28:55.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Store.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\Store.cs",
-              "RelativeDocumentMoniker": "Store.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\Store.cs",
-              "RelativeToolTip": "Store.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T16:23:21.157Z",
+              "WhenOpened": "2026-01-30T05:07:07.396Z",
               "EditorCaption": ""
             }
           ]

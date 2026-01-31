@@ -20,6 +20,8 @@
                     <MenuItem Header="Добавить права" Click="AddPriv_Click"/>
                     <MenuItem Header="Каталог моделей" Click="AddCatalog_Click"/>
                     <MenuItem Header="Добавить магазин" Click="AddShop_Click"/>
+                    <MenuItem Header="Лабораторная работа 3" Click="AddLW3_Click"/>
+
                 </MenuItem>
             </Menu>
 

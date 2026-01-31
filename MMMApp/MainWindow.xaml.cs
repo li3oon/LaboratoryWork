@@ -26,6 +26,8 @@ namespace MMMApp
             // Навигация по умолчанию
             MainFrame.Navigate(new Start());
             Manager.MainFrame = MainFrame;
+
+
         }
 
         private void BtnBack_Click(object sender, RoutedEventArgs e)
@@ -62,6 +64,11 @@ namespace MMMApp
         private void AddShop_Click(object sender, RoutedEventArgs e)
         {
             Manager.MainFrame.Navigate(new PageShop());
+        }
+
+        private void AddLW3_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new LaboratoryWork03.MainMenu());
         }
     }
 }

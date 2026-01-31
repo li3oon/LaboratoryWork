@@ -374,6 +374,33 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataBase.edmx</DependentUpon>
     </Compile>
+    <Compile Include="LaboratoryWork03\MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LaboratoryWork03\Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaboratoryWork03\Orders.Designer.cs">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaboratoryWork03\Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaboratoryWork03\Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaboratoryWork03\ProductGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaboratoryWork03\ProductGroups.Designer.cs">
+      <DependentUpon>ProductGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaboratoryWork03\Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaboratoryWork03\Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model.cs">
       <DependentUpon>DataBase.tt</DependentUpon>
     </Compile>
@@ -407,6 +434,10 @@
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>DataBase.tt</DependentUpon>
     </Compile>
+    <Page Include="LaboratoryWork03\MainMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
