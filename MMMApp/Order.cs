@@ -18,6 +18,7 @@ namespace MMMApp
         public Order()
         {
             this.OrderItem = new HashSet<OrderItem>();
+            this.Users = new HashSet<Users1>();
         }
     
         public int order_id { get; set; }
@@ -30,5 +31,7 @@ namespace MMMApp
         public virtual Store Store { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<OrderItem> OrderItem { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Users1> Users { get; set; }
     }
 }

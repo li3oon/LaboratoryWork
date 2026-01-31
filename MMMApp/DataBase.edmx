@@ -82,6 +82,7 @@
           <Property Name="Email" Type="nvarchar" MaxLength="100" />
           <Property Name="Url" Type="nvarchar" MaxLength="200" />
           <Property Name="UserStatus" Type="nvarchar" MaxLength="50" />
+          <Property Name="OrderID" Type="int" />
         </EntityType>
         <Association Name="FK_Model_Store">
           <End Role="Store" Type="Self.Store" Multiplicity="0..1" />
@@ -145,6 +146,18 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_Users_Order">
+          <End Role="Order" Type="Self.Order" Multiplicity="0..1" />
+          <End Role="Users" Type="Self.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Order">
+              <PropertyRef Name="order_id" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="OrderID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
         <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
@@ -204,6 +217,10 @@
             <End Role="Model" EntitySet="Model" />
             <End Role="Product" EntitySet="Product" />
           </AssociationSet>
+          <AssociationSet Name="FK_Users_Order" Association="Self.FK_Users_Order">
+            <End Role="Order" EntitySet="Order" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -235,6 +252,7 @@
           <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Store" Relationship="Self.FK_Order_Store" FromRole="Order" ToRole="Store" />
           <NavigationProperty Name="OrderItem" Relationship="Self.FK_OrderItem_Order" FromRole="Order" ToRole="OrderItem" />
+          <NavigationProperty Name="Users" Relationship="DB.FK_Users_Order" FromRole="Order" ToRole="Users1" />
         </EntityType>
         <EntityType Name="OrderItem">
           <Key>
@@ -404,6 +422,10 @@
           </FunctionImport>
           <FunctionImport Name="sp_upgraddiagrams" />
           <EntitySet Name="Users" EntityType="DB.Users1" />
+          <AssociationSet Name="FK_Users_Order" Association="DB.FK_Users_Order">
+            <End Role="Order" EntitySet="Order" />
+            <End Role="Users1" EntitySet="Users" />
+          </AssociationSet>
         </EntityContainer>
         <ComplexType Name="sp_helpdiagramdefinition_Result">
           <Property Type="Int32" Name="version" Nullable="true" />
@@ -428,7 +450,21 @@
           <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="Url" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="UserStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OrderID" Type="Int32" />
+          <NavigationProperty Name="Order" Relationship="DB.FK_Users_Order" FromRole="Users1" ToRole="Order" />
         </EntityType>
+        <Association Name="FK_Users_Order">
+          <End Type="DB.Order" Role="Order" Multiplicity="0..1" />
+          <End Type="DB.Users1" Role="Users1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Order">
+              <PropertyRef Name="order_id" />
+            </Principal>
+            <Dependent Role="Users1">
+              <PropertyRef Name="OrderID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -532,6 +568,7 @@
           <EntitySetMapping Name="Users">
             <EntityTypeMapping TypeName="DB.Users1">
               <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
                 <ScalarProperty Name="UserStatus" ColumnName="UserStatus" />
                 <ScalarProperty Name="Url" ColumnName="Url" />
                 <ScalarProperty Name="Email" ColumnName="Email" />

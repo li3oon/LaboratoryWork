@@ -26,6 +26,7 @@
     <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <NavigationProperty Name="Store" Relationship="Self.FK_Order_Store" FromRole="Order" ToRole="Store" />
     <NavigationProperty Name="OrderItem" Relationship="Self.FK_OrderItem_Order" FromRole="Order" ToRole="OrderItem" />
+    <NavigationProperty Name="Users" Relationship="DB.FK_Users_Order" FromRole="Order" ToRole="Users1" />
   </EntityType>
   <EntityType Name="OrderItem">
     <Key>
@@ -194,6 +195,11 @@
       <Parameter Name="new_diagramname" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="Users" EntityType="DB.Users1" />
+    <AssociationSet Name="FK_Users_Order" Association="DB.FK_Users_Order">
+      <End Role="Order" EntitySet="Order" />
+      <End Role="Users1" EntitySet="Users" />
+    </AssociationSet>
   </EntityContainer>
   <ComplexType Name="sp_helpdiagramdefinition_Result">
     <Property Type="Int32" Name="version" Nullable="true" />
@@ -206,4 +212,31 @@
     <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
     <Property Type="Int32" Name="OwnerID" Nullable="false" />
   </ComplexType>
+  <EntityType Name="Users1">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Surname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Url" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="UserStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OrderID" Type="Int32" />
+    <NavigationProperty Name="Order" Relationship="DB.FK_Users_Order" FromRole="Users1" ToRole="Order" />
+  </EntityType>
+  <Association Name="FK_Users_Order">
+    <End Type="DB.Order" Role="Order" Multiplicity="0..1" />
+    <End Type="DB.Users1" Role="Users1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="order_id" />
+      </Principal>
+      <Dependent Role="Users1">
+        <PropertyRef Name="OrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

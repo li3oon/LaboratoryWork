@@ -21,6 +21,11 @@ namespace MMMApp.LaboratoryWork03
     /// </summary>
     public partial class MainMenu : Page
     {
+        private Users users;
+        private ProductGroups productGroups;
+        private Orders orders;
+        private Product product;
+
         public MainMenu()
         {
             InitializeComponent();
@@ -28,26 +33,26 @@ namespace MMMApp.LaboratoryWork03
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var form = new ProductGroups();
-            form.Show(); // немодальное окно
+            productGroups = new ProductGroups();
+            productGroups.Visible = true;
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            var form = new Product();
-            form.Show();
+            product = new Product();
+            product.Visible = true;
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            var form = new Orders();
-            form.Show();
+            orders = new Orders();
+            orders.Visible = true;
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            var form = new Users();
-            form.Show();
+            users = new Users();
+            users.Visible = true;
         }
     }
 }

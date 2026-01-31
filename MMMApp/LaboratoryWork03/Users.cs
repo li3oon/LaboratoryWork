@@ -2,36 +2,42 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace MMMApp.LaboratoryWork03
 {
     public partial class Users : Form
     {
+       
         public Users()
         {
             InitializeComponent();
             this.Text = "Пользователи";
+
         }
         private void Users_Load(object sender, EventArgs e)
         {
-            this.usersTableAdapter.Fill(this.mMM1DataSet.Users);
+            this.users1BindingSource.DataSource =
+                new DataBase().Users1.ToList();
         }
 
         private void usersBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
             this.Validate();
-            this.usersBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.mMM1DataSet);
-        }
+            this.users1BindingSource.EndEdit();
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            using (var db = new DataBase())
+            {
+                db.SaveChanges();
+            }
         }
+        private void label1_Click(object sender, EventArgs e) { }
+
     }
 }

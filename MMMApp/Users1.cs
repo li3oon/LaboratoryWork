@@ -22,5 +22,8 @@ namespace MMMApp
         public string Email { get; set; }
         public string Url { get; set; }
         public string UserStatus { get; set; }
+        public Nullable<int> OrderID { get; set; }
+    
+        public virtual Order Order { get; set; }
     }
 }
