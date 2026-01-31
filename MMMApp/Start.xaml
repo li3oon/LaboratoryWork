@@ -9,6 +9,6 @@
       Title="Начальное окно">
 
     <Grid>
-        <TextBlock Text="Выберите действие дня работы" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Text="Выберите действие для работы" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
     </Grid>
 </Page>

@@ -23,16 +23,16 @@ namespace MMMApp.LaboratoryWork03
         }
         private void Users_Load(object sender, EventArgs e)
         {
-            this.users1BindingSource.DataSource =
-                new DataBase().Users1.ToList();
+            this.uSERSBindingSource.DataSource =
+                new COMPUTER_SHOP().USERS.ToList();
         }
 
-        private void usersBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        private void BindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
             this.Validate();
-            this.users1BindingSource.EndEdit();
+            this.uSERSBindingSource.EndEdit();
 
-            using (var db = new DataBase())
+            using (var db = new COMPUTER_SHOP())
             {
                 db.SaveChanges();
             }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="69ad345c852b446fa3c9d2b9a1b5eac1" Name="Diagram1">
+        <EntityTypeShape EntityType="DB2.BILLS" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB2.CATALOGS" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB2.EMPLOYEES" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB2.ORDERS" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB2.PRODUCTS" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB2.USERS" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB2.ViewORDER" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="DB2.FK_BILLS_ORDERS" ManuallyRouted="false" />
+        <AssociationConnector Association="DB2.FK_PRODUCTS_CATALOGS" ManuallyRouted="false" />
+        <AssociationConnector Association="DB2.FK_ORDERS_EMPLOYEES" ManuallyRouted="false" />
+        <AssociationConnector Association="DB2.FK_ORDERS_PRODUCTS" ManuallyRouted="false" />
+        <AssociationConnector Association="DB2.FK_ORDERS_USERS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

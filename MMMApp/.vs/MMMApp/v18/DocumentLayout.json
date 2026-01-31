@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\database.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:database.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\laboratorywork03\\producttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\producttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\laboratorywork03\\users.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\users.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\laboratorywork\\mmmapp\\laboratorywork03\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A847858B-E7ED-44EA-B9A3-B18B45E2EE54}|MMMApp.csproj|solutionrelative:laboratorywork03\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,63 +17,37 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 153,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Users.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.cs",
-              "RelativeDocumentMoniker": "LaboratoryWork03\\Users.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.cs",
-              "RelativeToolTip": "LaboratoryWork03\\Users.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAD4vw0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T05:56:09.615Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 299,
+          "DockedWidth": 172,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DataBase.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\DataBase.edmx",
-              "RelativeDocumentMoniker": "DataBase.edmx",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\DataBase.edmx [Diagram1]",
-              "RelativeToolTip": "DataBase.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2026-01-31T07:54:15.601Z",
-              "EditorCaption": " [Diagram1]"
-            },
+              "Title": "ProductTable.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\ProductTable.cs",
+              "RelativeDocumentMoniker": "LaboratoryWork03\\ProductTable.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\ProductTable.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "LaboratoryWork03\\ProductTable.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T13:07:05.429Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 134,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Users.Designer.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.Designer.cs",
-              "RelativeDocumentMoniker": "LaboratoryWork03\\Users.Designer.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.Designer.cs",
-              "RelativeToolTip": "LaboratoryWork03\\Users.Designer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wEAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Product.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Product.cs",
+              "RelativeDocumentMoniker": "LaboratoryWork03\\Product.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Product.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "LaboratoryWork03\\Product.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T07:32:51.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Users.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.cs",
-              "RelativeDocumentMoniker": "LaboratoryWork03\\Users.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\\u0433\u0438\u0442\u0445\u0430\u0431\\LaboratoryWork\\MMMApp\\LaboratoryWork03\\Users.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "LaboratoryWork03\\Users.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T07:21:46.435Z",
+              "WhenOpened": "2026-01-31T12:08:49.127Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]

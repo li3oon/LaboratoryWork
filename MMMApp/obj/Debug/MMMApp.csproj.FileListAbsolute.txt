@@ -362,3 +362,6 @@ D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\PageShop.baml
 D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\LaboratoryWork03\MainMenu.g.cs
 D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\LaboratoryWork03\MainMenu.baml
 D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\MMMApp.LaboratoryWork03.Users.resources
+D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\MMMApp.LaboratoryWork03.Orders.resources
+D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\MMMApp.LaboratoryWork03.Product.resources
+D:\техникум\гитхаб\LaboratoryWork\MMMApp\obj\Debug\MMMApp.LaboratoryWork03.ProductGroups.resources

@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("computershop.context.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("computershop.tt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("database.context.tt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("database.tt")]
 

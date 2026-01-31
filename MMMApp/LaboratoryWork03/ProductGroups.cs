@@ -17,5 +17,21 @@ namespace MMMApp.LaboratoryWork03
             InitializeComponent();
             this.Text = "Товарные группы";
         }
+        private void Catalogs_Load(object sender, EventArgs e)
+        {
+            this.cATALOGSBindingSource.DataSource =
+                new COMPUTER_SHOP().CATALOGS.ToList();
+        }
+
+        private void BindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.cATALOGSBindingSource.EndEdit();
+
+            using (var db = new COMPUTER_SHOP())
+            {
+                db.SaveChanges();
+            }
+        }
     }
 }

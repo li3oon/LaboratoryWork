@@ -359,6 +359,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BILLS.cs">
+      <DependentUpon>ComputerShop.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CATALOGS.cs">
+      <DependentUpon>ComputerShop.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComputerShop.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComputerShop.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComputerShop.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComputerShop.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComputerShop.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComputerShop.edmx</DependentUpon>
+    </Compile>
     <Compile Include="DataBase.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -373,6 +394,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataBase.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLOYEES.cs">
+      <DependentUpon>ComputerShop.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetOrderStatistics_Result.cs">
+      <DependentUpon>ComputerShop.tt</DependentUpon>
     </Compile>
     <Compile Include="LaboratoryWork03\MainMenu.xaml.cs">
       <DependentUpon>MainMenu.xaml</DependentUpon>
@@ -395,6 +422,12 @@
     <Compile Include="LaboratoryWork03\ProductGroups.Designer.cs">
       <DependentUpon>ProductGroups.cs</DependentUpon>
     </Compile>
+    <Compile Include="LaboratoryWork03\ProductTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaboratoryWork03\ProductTable.Designer.cs">
+      <DependentUpon>ProductTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="LaboratoryWork03\Users.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -410,6 +443,9 @@
     <Compile Include="OrderItem.cs">
       <DependentUpon>DataBase.tt</DependentUpon>
     </Compile>
+    <Compile Include="ORDERS.cs">
+      <DependentUpon>ComputerShop.tt</DependentUpon>
+    </Compile>
     <Compile Include="PageCatalog.xaml.cs">
       <DependentUpon>PageCatalog.xaml</DependentUpon>
     </Compile>
@@ -418,6 +454,9 @@
     </Compile>
     <Compile Include="Product.cs">
       <DependentUpon>DataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUCTS.cs">
+      <DependentUpon>ComputerShop.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_helpdiagramdefinition_Result.cs">
       <DependentUpon>DataBase.tt</DependentUpon>
@@ -434,8 +473,14 @@
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>DataBase.tt</DependentUpon>
     </Compile>
+    <Compile Include="USERS.cs">
+      <DependentUpon>ComputerShop.tt</DependentUpon>
+    </Compile>
     <Compile Include="Users1.cs">
       <DependentUpon>DataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewORDER.cs">
+      <DependentUpon>ComputerShop.tt</DependentUpon>
     </Compile>
     <Page Include="LaboratoryWork03\MainMenu.xaml">
       <SubType>Designer</SubType>
@@ -502,6 +547,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="LaboratoryWork03\Orders.resx">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaboratoryWork03\Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaboratoryWork03\ProductGroups.resx">
+      <DependentUpon>ProductGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaboratoryWork03\ProductTable.resx">
+      <DependentUpon>ProductTable.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LaboratoryWork03\Users.resx">
       <DependentUpon>Users.cs</DependentUpon>
     </EmbeddedResource>
@@ -513,12 +570,30 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>DataBase.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <EntityDeploy Include="ComputerShop.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ComputerShop.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ComputerShop.edmx.diagram">
+      <DependentUpon>ComputerShop.edmx</DependentUpon>
+    </None>
     <None Include="DataBase.edmx.diagram">
       <DependentUpon>DataBase.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\BILLS.datasource" />
+    <None Include="Properties\DataSources\CATALOGS.datasource" />
+    <None Include="Properties\DataSources\COMPUTER_SHOP.datasource" />
     <None Include="Properties\DataSources\DataBase.datasource" />
+    <None Include="Properties\DataSources\EMPLOYEES.datasource" />
+    <None Include="Properties\DataSources\GetOrderStatistics_Result.datasource" />
+    <None Include="Properties\DataSources\ORDERS.datasource" />
+    <None Include="Properties\DataSources\PRODUCTS.datasource" />
+    <None Include="Properties\DataSources\sp_helpdiagramdefinition_Result.datasource" />
+    <None Include="Properties\DataSources\sp_helpdiagrams_Result.datasource" />
+    <None Include="Properties\DataSources\USERS.datasource" />
     <None Include="Properties\DataSources\Users1.datasource" />
+    <None Include="Properties\DataSources\ViewORDER.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -528,6 +603,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ComputerShop.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ComputerShop.edmx</DependentUpon>
+      <LastGenOutput>ComputerShop.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ComputerShop.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ComputerShop.edmx</DependentUpon>
+      <LastGenOutput>ComputerShop.cs</LastGenOutput>
+    </Content>
     <Content Include="DataBase.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>DataBase.Context.cs</LastGenOutput>

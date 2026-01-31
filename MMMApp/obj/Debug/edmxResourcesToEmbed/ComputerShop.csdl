@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB2" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BILLS">
+    <Key>
+      <PropertyRef Name="ID_BILL" />
+    </Key>
+    <Property Name="ID_BILL" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_ORDER" Type="Int32" Nullable="false" />
+    <Property Name="BILL_DATE" Type="DateTime" Precision="3" />
+    <Property Name="AMOUNT" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="PAYMENT_STATUS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ORDERS" Relationship="Self.FK_BILLS_ORDERS" FromRole="BILLS" ToRole="ORDERS" />
+  </EntityType>
+  <EntityType Name="CATALOGS">
+    <Key>
+      <PropertyRef Name="ID_CATALOG" />
+    </Key>
+    <Property Name="ID_CATALOG" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="PRODUCTS" Relationship="Self.FK_PRODUCTS_CATALOGS" FromRole="CATALOGS" ToRole="PRODUCTS" />
+  </EntityType>
+  <EntityType Name="EMPLOYEES">
+    <Key>
+      <PropertyRef Name="ID_EMPLOYEE" />
+    </Key>
+    <Property Name="ID_EMPLOYEE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SURNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PATRONYMIC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="POST" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PHONE" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ORDERS" Relationship="Self.FK_ORDERS_EMPLOYEES" FromRole="EMPLOYEES" ToRole="ORDERS" />
+  </EntityType>
+  <EntityType Name="ORDERS">
+    <Key>
+      <PropertyRef Name="ID_ORDER" />
+    </Key>
+    <Property Name="ID_ORDER" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_USER" Type="Int32" Nullable="false" />
+    <Property Name="ID_PRODUCT" Type="Int32" Nullable="false" />
+    <Property Name="ID_EMPLOYEE" Type="Int32" Nullable="false" />
+    <Property Name="ORDER_DATE" Type="DateTime" Precision="3" />
+    <Property Name="NUMBER" Type="Int32" Nullable="false" />
+    <Property Name="STATUS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BILLS" Relationship="Self.FK_BILLS_ORDERS" FromRole="ORDERS" ToRole="BILLS" />
+    <NavigationProperty Name="EMPLOYEES" Relationship="Self.FK_ORDERS_EMPLOYEES" FromRole="ORDERS" ToRole="EMPLOYEES" />
+    <NavigationProperty Name="PRODUCTS" Relationship="Self.FK_ORDERS_PRODUCTS" FromRole="ORDERS" ToRole="PRODUCTS" />
+    <NavigationProperty Name="USERS" Relationship="Self.FK_ORDERS_USERS" FromRole="ORDERS" ToRole="USERS" />
+  </EntityType>
+  <EntityType Name="PRODUCTS">
+    <Key>
+      <PropertyRef Name="ID_PRODUCT" />
+    </Key>
+    <Property Name="ID_PRODUCT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="PRICE" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="QUANTITY" Type="Int32" />
+    <Property Name="RATING" Type="Decimal" Precision="3" Scale="1" />
+    <Property Name="ID_CATALOG" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CATALOGS" Relationship="Self.FK_PRODUCTS_CATALOGS" FromRole="PRODUCTS" ToRole="CATALOGS" />
+    <NavigationProperty Name="ORDERS" Relationship="Self.FK_ORDERS_PRODUCTS" FromRole="PRODUCTS" ToRole="ORDERS" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="ID_USER" />
+    </Key>
+    <Property Name="ID_USER" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SURNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PATRONYMIC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PHONE" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="URL" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="USERSTATUS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ORDERS" Relationship="Self.FK_ORDERS_USERS" FromRole="USERS" ToRole="ORDERS" />
+  </EntityType>
+  <EntityType Name="ViewORDER">
+    <Key>
+      <PropertyRef Name="PRODUCTSNAME" />
+      <PropertyRef Name="PRICE" />
+      <PropertyRef Name="NUMBER" />
+      <PropertyRef Name="USERSURNAME" />
+      <PropertyRef Name="USERNAME" />
+      <PropertyRef Name="PHONE" />
+      <PropertyRef Name="EMPLOYEESURNAME" />
+      <PropertyRef Name="POST" />
+    </Key>
+    <Property Name="PRODUCTSNAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="PRICE" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="NUMBER" Type="Int32" Nullable="false" />
+    <Property Name="ORDERTIME" Type="DateTime" Precision="3" />
+    <Property Name="USERSURNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="USERNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PATRONYMIC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PHONE" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EMPLOYEESURNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="POST" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ORDERSUM" Type="Decimal" Precision="21" Scale="2" />
+  </EntityType>
+  <Association Name="FK_BILLS_ORDERS">
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="BILLS" Type="Self.BILLS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ORDERS">
+        <PropertyRef Name="ID_ORDER" />
+      </Principal>
+      <Dependent Role="BILLS">
+        <PropertyRef Name="ID_ORDER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTS_CATALOGS">
+    <End Role="CATALOGS" Type="Self.CATALOGS" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATALOGS">
+        <PropertyRef Name="ID_CATALOG" />
+      </Principal>
+      <Dependent Role="PRODUCTS">
+        <PropertyRef Name="ID_CATALOG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERS_EMPLOYEES">
+    <End Role="EMPLOYEES" Type="Self.EMPLOYEES" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLOYEES">
+        <PropertyRef Name="ID_EMPLOYEE" />
+      </Principal>
+      <Dependent Role="ORDERS">
+        <PropertyRef Name="ID_EMPLOYEE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERS_PRODUCTS">
+    <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTS">
+        <PropertyRef Name="ID_PRODUCT" />
+      </Principal>
+      <Dependent Role="ORDERS">
+        <PropertyRef Name="ID_PRODUCT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERS_USERS">
+    <End Role="USERS" Type="Self.USERS" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USERS">
+        <PropertyRef Name="ID_USER" />
+      </Principal>
+      <Dependent Role="ORDERS">
+        <PropertyRef Name="ID_USER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="COMPUTER_SHOP" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BILLS" EntityType="Self.BILLS" />
+    <EntitySet Name="CATALOGS" EntityType="Self.CATALOGS" />
+    <EntitySet Name="EMPLOYEES" EntityType="Self.EMPLOYEES" />
+    <EntitySet Name="ORDERS" EntityType="Self.ORDERS" />
+    <EntitySet Name="PRODUCTS" EntityType="Self.PRODUCTS" />
+    <EntitySet Name="USERS" EntityType="Self.USERS" />
+    <EntitySet Name="ViewORDER" EntityType="Self.ViewORDER" />
+    <AssociationSet Name="FK_BILLS_ORDERS" Association="Self.FK_BILLS_ORDERS">
+      <End Role="ORDERS" EntitySet="ORDERS" />
+      <End Role="BILLS" EntitySet="BILLS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTS_CATALOGS" Association="Self.FK_PRODUCTS_CATALOGS">
+      <End Role="CATALOGS" EntitySet="CATALOGS" />
+      <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERS_EMPLOYEES" Association="Self.FK_ORDERS_EMPLOYEES">
+      <End Role="EMPLOYEES" EntitySet="EMPLOYEES" />
+      <End Role="ORDERS" EntitySet="ORDERS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERS_PRODUCTS" Association="Self.FK_ORDERS_PRODUCTS">
+      <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+      <End Role="ORDERS" EntitySet="ORDERS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERS_USERS" Association="Self.FK_ORDERS_USERS">
+      <End Role="USERS" EntitySet="USERS" />
+      <End Role="ORDERS" EntitySet="ORDERS" />
+    </AssociationSet>
+    <FunctionImport Name="GetOrderStatistics" ReturnType="Collection(DB2.GetOrderStatistics_Result)">
+      <Parameter Name="StartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="EndDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetOrderStatistics_Result">
+    <Property Type="Int32" Name="TotalOrders" Nullable="true" />
+    <Property Type="Decimal" Name="TotalAmount" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="AverageOrder" Nullable="true" Precision="38" Scale="6" />
+  </ComplexType>
+</Schema>

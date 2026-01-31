@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DB2Container" CdmEntityContainer="COMPUTER_SHOP">
+    <EntitySetMapping Name="BILLS">
+      <EntityTypeMapping TypeName="DB2.BILLS">
+        <MappingFragment StoreEntitySet="BILLS">
+          <ScalarProperty Name="ID_BILL" ColumnName="ID_BILL" />
+          <ScalarProperty Name="ID_ORDER" ColumnName="ID_ORDER" />
+          <ScalarProperty Name="BILL_DATE" ColumnName="BILL_DATE" />
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+          <ScalarProperty Name="PAYMENT_STATUS" ColumnName="PAYMENT_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CATALOGS">
+      <EntityTypeMapping TypeName="DB2.CATALOGS">
+        <MappingFragment StoreEntitySet="CATALOGS">
+          <ScalarProperty Name="ID_CATALOG" ColumnName="ID_CATALOG" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMPLOYEES">
+      <EntityTypeMapping TypeName="DB2.EMPLOYEES">
+        <MappingFragment StoreEntitySet="EMPLOYEES">
+          <ScalarProperty Name="ID_EMPLOYEE" ColumnName="ID_EMPLOYEE" />
+          <ScalarProperty Name="SURNAME" ColumnName="SURNAME" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="PATRONYMIC" ColumnName="PATRONYMIC" />
+          <ScalarProperty Name="POST" ColumnName="POST" />
+          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ORDERS">
+      <EntityTypeMapping TypeName="DB2.ORDERS">
+        <MappingFragment StoreEntitySet="ORDERS">
+          <ScalarProperty Name="ID_ORDER" ColumnName="ID_ORDER" />
+          <ScalarProperty Name="ID_USER" ColumnName="ID_USER" />
+          <ScalarProperty Name="ID_PRODUCT" ColumnName="ID_PRODUCT" />
+          <ScalarProperty Name="ID_EMPLOYEE" ColumnName="ID_EMPLOYEE" />
+          <ScalarProperty Name="ORDER_DATE" ColumnName="ORDER_DATE" />
+          <ScalarProperty Name="NUMBER" ColumnName="NUMBER" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUCTS">
+      <EntityTypeMapping TypeName="DB2.PRODUCTS">
+        <MappingFragment StoreEntitySet="PRODUCTS">
+          <ScalarProperty Name="ID_PRODUCT" ColumnName="ID_PRODUCT" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="PRICE" ColumnName="PRICE" />
+          <ScalarProperty Name="QUANTITY" ColumnName="QUANTITY" />
+          <ScalarProperty Name="RATING" ColumnName="RATING" />
+          <ScalarProperty Name="ID_CATALOG" ColumnName="ID_CATALOG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERS">
+      <EntityTypeMapping TypeName="DB2.USERS">
+        <MappingFragment StoreEntitySet="USERS">
+          <ScalarProperty Name="ID_USER" ColumnName="ID_USER" />
+          <ScalarProperty Name="SURNAME" ColumnName="SURNAME" />
+          <ScalarProperty Name="PATRONYMIC" ColumnName="PATRONYMIC" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="USERSTATUS" ColumnName="USERSTATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewORDER">
+      <EntityTypeMapping TypeName="DB2.ViewORDER">
+        <MappingFragment StoreEntitySet="ViewORDER">
+          <ScalarProperty Name="PRODUCTSNAME" ColumnName="PRODUCTSNAME" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="PRICE" ColumnName="PRICE" />
+          <ScalarProperty Name="NUMBER" ColumnName="NUMBER" />
+          <ScalarProperty Name="ORDERTIME" ColumnName="ORDERTIME" />
+          <ScalarProperty Name="USERSURNAME" ColumnName="USERSURNAME" />
+          <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+          <ScalarProperty Name="PATRONYMIC" ColumnName="PATRONYMIC" />
+          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+          <ScalarProperty Name="EMPLOYEESURNAME" ColumnName="EMPLOYEESURNAME" />
+          <ScalarProperty Name="POST" ColumnName="POST" />
+          <ScalarProperty Name="ORDERSUM" ColumnName="ORDERSUM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetOrderStatistics" FunctionName="Хранилище DB2.GetOrderStatistics">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB2.GetOrderStatistics_Result">
+          <ScalarProperty Name="TotalOrders" ColumnName="TotalOrders" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="AverageOrder" ColumnName="AverageOrder" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
